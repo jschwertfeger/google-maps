@@ -6,7 +6,7 @@ module Google
     # Defines constants and methods related to configuration
     module Configuration
       # An array of valid keys in the options hash when configuring an {Google::Maps::API}
-      VALID_OPTIONS_KEYS = %i[
+      VALID_OPTIONS_KEYS = %w[
         end_point authentication_mode client_id client_secret format
         directions_service places_service geocode_service
         api_key default_language place_details_service default_params

@@ -6,7 +6,7 @@ require 'google_maps/version'
 Gem::Specification.new do |s|
   s.name        = 'google-maps'
   s.license     = 'MIT'
-  s.version     = Google::Maps::VERSION
+  s.version     = '3.0.5' #Google::Maps::VERSION
   s.authors     = ['Daniel van Hoesel']
   s.email       = ['info@zilverline.com']
   s.homepage    = 'http://zilverline.com/'

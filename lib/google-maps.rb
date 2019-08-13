@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require File.expand_path('google_maps/configuration', __dir__)
-require File.expand_path('google_maps/logger', __dir__)
-require File.expand_path('google_maps/route', __dir__)
-require File.expand_path('google_maps/place', __dir__)
-require File.expand_path('google_maps/location', __dir__)
+require File.expand_path('google_maps/configuration', File.dirname(__FILE__))
+require File.expand_path('google_maps/logger', File.dirname(__FILE__))
+require File.expand_path('google_maps/route', File.dirname(__FILE__))
+require File.expand_path('google_maps/place', File.dirname(__FILE__))
+require File.expand_path('google_maps/location', File.dirname(__FILE__))
 
 module Google
   module Maps

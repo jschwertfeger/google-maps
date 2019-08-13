@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require File.expand_path('../spec_helper', __dir__)
+require File.expand_path('../spec_helper', File.dirname(__FILE__))
 
 describe Google::Maps::API do
   it 'should raise a custom exception when the query fails by net' do

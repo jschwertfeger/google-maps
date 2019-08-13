@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require File.expand_path('api', __dir__)
+require File.expand_path('api', File.dirname(__FILE__))
 
 module Google
   module Maps
